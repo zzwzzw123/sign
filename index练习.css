@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*统一设置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: calc(100%- 40px);
+}
+
+/*背景*/
+body{
+	background: url(images/main_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#kuang{
+	width: 350px;
+	height: 600px;
+	border-top: 8px solid #00CCCC;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 5px;
+	position: relative;
+	margin-top: 40px;
+}
+
+#yuan{
+	position: relative;
+	width: 198px;
+	height: 198px;
+	margin: 50px 76px;
+	border-radius: 50%;
+	margin-top: 50px;
+	box-shadow: 0px 0px 20px #CCCCCC;
+}
+
+#touxiang{
+	width: 184px;
+	height: 184px;
+	position: absolute;
+	left: 7px;
+	top: 7px;
+	background: url(images/liudehua.jpg) no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+#zi{
+	width: 75%;
+	padding: 5px;
+	box-shadow: 1px 1px 5px 1px #CCCCCC;
+	margin: auto;
+	border-radius: 5px;
+}
+
+#zi input{
+	border: none;
+	width: 70%;
+	outline: none;
+	color: #00CCCC;
+	line-height: 45px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+#zi label{
+	width: 30%;
+	float: left;
+	line-height: 45px;
+}
+
+.xian{
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.denglu input{
+	display: block;
+	width: calc(75% + 10px);
+	margin:30px auto;
+	border: none;
+	background: linear-gradient(#0cc,#0cd);
+	border-radius: 5px;
+	height: 30px;
+	outline: none;
+}
+
+.denglu:active input{
+	transform: translateY(10%);
+}
+
+#di{
+	width: 350px;
+	height: 50px;
+	font-size: 12px;
+	font-family: "黑体";
+	text-align: center;
+	border-top: 1px solid #000000;
+	position: absolute;
+	bottom: 0;
+}
+
+#di p{
+	line-height: 50px;
+}
